@@ -1,4 +1,6 @@
 package com.company;
 
-public class Figure {
+public abstract class Figure {
+
+    public abstract double figureArea();
 }
