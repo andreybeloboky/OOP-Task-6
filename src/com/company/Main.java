@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Which of the figure is the area? \n" + "The first (1) - circle, the second (2) - square.");
+        System.out.println("Which of the figure is the area? \n" + "The first (1) - circle, the second (2) - square, another number - the end program");
         int i = scanner.nextInt();
         switch (i) {
             case 1 -> {
@@ -19,6 +19,7 @@ public class Main {
                 Square square = new Square(side);
                 System.out.println(square.figureArea());
             }
+            default -> System.out.println("The end");
         }
     }
 }
