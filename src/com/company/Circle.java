@@ -8,8 +8,11 @@ public class Circle extends Figure {
         this.radius = radius;
     }
 
+    /**
+     * @return - cicrle area;
+     */
     @Override
     public double figureArea() {
-        return  Math.PI * (radius * radius);
+        return Math.PI * (radius * radius);
     }
 }
