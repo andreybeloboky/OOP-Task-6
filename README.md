@@ -1,4 +1,4 @@
-[OOP] Figure
+[OOP] [GitHub] Add a calculator for calculating square some figure
 Short description
 
 There are two object in this method: The first - Square, the second circle. The square object calculate square and the circle method too.
