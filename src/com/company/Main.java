@@ -12,12 +12,12 @@ public class Main {
             case 1 -> {
                 double radius = scanner.nextInt();
                 Circle circle = new Circle(radius);
-                System.out.println(circle.figureArea());
+                System.out.println(circle.calcualteSquare());
             }
             case 2 -> {
                 double side = scanner.nextInt();
                 Square square = new Square(side);
-                System.out.println(square.figureArea());
+                System.out.println(square.calcualteSquare());
             }
             default -> System.out.println("The end");
         }
